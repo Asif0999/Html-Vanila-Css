@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-template-rows: repeat(7, 1fr);
+            grid-gap: 10px;
+            height: 400px;
+
+        }
+
+        .calender,
+        .week {
+            color: whitesmoke;
+            /* border: 1px solid goldenrod; */
+            border-radius: 10px;
+            font-size: 2em;
+            font-weight: 700;
+            background-color: rgb(53, 48, 48);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .date {
+            background-color: gray;
+        }
+
+        .week {
+            background-color: rgb(30, 230, 30);
+            color: black;
+            font-size: 1em;
+        }
+
+        #sunday {
+            background-color: rgb(202, 12, 12);
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="font-size: 50PX; text-align: center; color: rgb(253, 190, 30);">GOOGLE CALENDER</h1>
+    <section class="container">
+        <div id="sunday" class="week">S</div>
+        <div class="week">M</div>
+        <div class="week">T</div>
+        <div class="week">W</div>
+        <div class="week">T</div>
+        <div class="week">F</div>
+        <div class="week">S</div>
+        <div class="calender date">30</div>
+        <div class="calender date">31</div>
+        <div class="calender">3</div>
+        <div class="calender">4</div>
+        <div class="calender">5</div>
+        <div class="calender">6</div>
+        <div class="calender">7</div>
+        <div class="calender">8</div>
+        <div class="calender">9</div>
+        <div class="calender">10</div>
+        <div class="calender">11</div>
+        <div class="calender">12</div>
+        <div class="calender">13</div>
+        <div class="calender">14</div>
+        <div class="calender">15</div>
+        <div class="calender">16</div>
+        <div class="calender">17</div>
+        <div class="calender">18</div>
+        <div class="calender">19</div>
+        <div class="calender">20</div>
+        <div class="calender">21</div>
+        <div class="calender">22</div>
+        <div class="calender">23</div>
+        <div class="calender">24</div>
+        <div class="calender">25</div>
+        <div class="calender">26</div>
+        <div class="calender">27</div>
+        <div class="calender">28</div>
+        <div class="calender">29</div>
+        <div class="calender">30</div>
+        <div class="calender">31</div>
+        <div class="calender date">1</div>
+        <div class="calender date">2</div>
+
+    </section>
+</body>
+
+</html>

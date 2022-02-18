@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-Column</title>
+    <style>
+        .grid-container {
+            display: grid;
+            /* grid-template-columns: 200px 200px 200px 200px; */
+            /* grid-template-columns: repeat(4, 200px); */
+            /* grid-template-rows: ; */
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 10px 10px;
+        }
+
+        .grid-cell {
+            border: 3px solid gold;
+            font-size: 2em;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Grid-column use in css and html</h1>
+    <section class="grid-container">
+        <div class="grid-cell">house-1</div>
+        <div class="grid-cell">house-2</div>
+        <div class="grid-cell">house-3</div>
+        <div class="grid-cell">house-4</div>
+        <div class="grid-cell">house-5</div>
+        <div class="grid-cell">house-6</div>
+        <div class="grid-cell">house-7</div>
+        <div class="grid-cell">house-8</div>
+        <div class="grid-cell">house-9</div>
+        <div class="grid-cell">house-10</div>
+        <div class="grid-cell">house-11</div>
+        <div class="grid-cell">house-12</div>
+        <div class="grid-cell">house-13</div>
+        <div class="grid-cell">house-14</div>
+        <div class="grid-cell">house-15</div>
+        <div class="grid-cell">house-16</div>
+    </section>
+</body>
+
+</html>

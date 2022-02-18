@@ -1,0 +1,18 @@
+h1{
+    color: burlywood;
+    font-size: 50px;
+}
+td , th{
+    border: 3px solid coral;
+    text-align: center;
+    height: 50px;
+    width: 200px;   
+    font-size: 20px;
+    font-weight: 700;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    color: crimson;
+}
